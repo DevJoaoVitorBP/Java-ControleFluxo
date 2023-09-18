@@ -17,7 +17,7 @@ public class Contador {
         } catch (ParametrosInvalidosException exception) {
             System.out.println(exception.getMessage());
         } finally {
-            // Certifique-se de fechar o scanner quando terminar de usá-lo
+            // Certificando de fechar o scanner quando não estiver sendo mais utilizado
             terminal.close();
         }
     }
